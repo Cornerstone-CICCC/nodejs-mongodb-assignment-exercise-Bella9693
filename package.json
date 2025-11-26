@@ -1,7 +1,7 @@
 {
   "name": "exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/wfdPmIqn)\r # NodeJS - NoSQL MongoDB Assignment Exercise",
   "main": "dist/server.js",
   "scripts": {
     "dev": "concurrently \"npx tsc --watch\" \"nodemon dist/server.js\"",
@@ -12,14 +12,24 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^5.0.5",
-    "@types/node": "^22.10.0",
+    "@types/node": "^22.19.1",
     "concurrently": "^9.2.1",
     "nodemon": "^3.1.11",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
+    "epress": "^0.0.1-security",
     "express": "^5.1.0",
     "mongoose": "^9.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/nodejs-mongodb-assignment-exercise-Bella9693.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/nodejs-mongodb-assignment-exercise-Bella9693/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/nodejs-mongodb-assignment-exercise-Bella9693#readme"
 }
